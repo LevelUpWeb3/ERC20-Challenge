@@ -8,17 +8,13 @@ Let's get started! 💪
 
 ## High Level Structure
 
-**1. START WITH THE GUIDE (CLICK BELOW)**
+**1. START WITH THE GUIDE [HERE](./Guide.md)**
 
-[<img alt="Start Here" width= "250px" src="../images/guide.png" />](./Guide.md)
+Guide: Begin your journey with the guide. Here you'll find the basic functionality of ERC20 tokens and how to get started.
 
-**2. READ THE ASSIGNMENT (CLICK BELOW)**
+**2. READ THE ASSIGNMENT [HERE](./Assignment.md)**
 
-[<img alt="Start Here" width= "250px" src="../images/assignment.png" />](./Assignment.md)
-
-1. Guide: Begin your journey with the guide. Here you'll find the basic functionality of ERC20 tokens and how to get started.
-
-2. Assignment: Then advance to the assignment. Here you will put your knowledge into practice by creating your own ERC20 token and deploying it to Scroll Sepolia Testnet with Foundry.
+Assignment: Then advance to the assignment. Here you will put your knowledge into practice by creating your own ERC20 token and deploying it to Scroll Sepolia Testnet with Foundry.
 
 ## Conclusion
 

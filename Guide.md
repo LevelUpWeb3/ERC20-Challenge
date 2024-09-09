@@ -6,11 +6,57 @@ Let's get you equipped! This guide will go over setting up your development envi
 
 Starting point is setting up a new Foundry project to deploy our contract to Scroll Sepolia Testnet and verify it.
 
-If you need help regarding with Foundry, please see: [Foundry-Exercise](./Foundry-Exercise.md).
+If you need help regarding with Foundry, please see: [Level Up: Build with Foundry](https://www.levelup.xyz/content/level-up-foundry).
 
 ## ERC20
 
 First of all, notice that ERC20 tokens are fungible. So each of an individual ERC20 token is completely indistinguishable than the other. For example, technically there is no difference between a USDT in my wallet and the one in yours.
+
+<details>
+<summary>Level Up: <a href="https://www.levelup.xyz/challenges/ERC20">ERC20 Challenge Recap</a></summary>
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "./ERC20.sol";
+
+// Define your ERC20 token contract
+contract MyToken is ERC20 {
+
+    // Constructor that mints the initial supply to the deployer of the contract
+    constructor(uint256 initialSupply) ERC20("MyToken", "MTK") {
+        // Mint the initial supply of tokens to the deployer's address
+    }
+
+    // Function to mint new tokens to a specified address
+    function mint(address to, uint256 amount) public {
+        // Implement the mint function using the _mint internal function
+    }
+
+    // Function to burn tokens from a specified address
+    function burn(address from, uint256 amount) public {
+        // Implement the burn function using the _burn internal function
+    }
+
+    // Function to transfer tokens from the caller's address to a specified address
+    function transfer(address to, uint256 amount) public override returns (bool) {
+        // Implement the transfer function using the _transfer internal function
+    }
+
+    // Function to approve an address to spend a certain amount of tokens on behalf of the caller
+    function approve(address spender, uint256 amount) public override returns (bool) {
+        // Implement the approve function using the _approve internal function
+    }
+
+    // Function to transfer tokens from one address to another using an allowance
+    function transferFrom(address from, address to, uint256 amount) public override returns (bool) {
+        // Implement the transferFrom function using the _transfer and _approve internal functions
+    }
+}
+```
+
+</details>
 
 ### What you need?
 
