@@ -1,6 +1,6 @@
 # Assignment
 
-You're doing great! You have;
+You're doing great! You have:
 
 1. Developed an understanding of what ERC20 tokens are.
 2. Grasped the functionality of ERC20 tokens.
@@ -8,7 +8,7 @@ You're doing great! You have;
 
 ## Objective
 
-Your task is to;
+Your task is to:
 
 1. Develop your own ERC20 token.
 2. Deploy it to Scroll Sepolia Testnet.
