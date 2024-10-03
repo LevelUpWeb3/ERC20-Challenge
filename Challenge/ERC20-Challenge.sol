@@ -34,7 +34,7 @@ contract MyToken is ERC20 {
 
     // Function to transfer tokens from one address to another using an allowance
     function transferFrom(address from, address to, uint256 amount) public override returns (bool) {
-        // Implement the transferFrom function using the _transfer and _approve internal functions
+        // Implement the transferFrom function using the _transfer and _spendAllowance internal functions
     }
 
     function getBalanceOf(address account) public view returns (uint256) {
